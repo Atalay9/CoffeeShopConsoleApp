@@ -25,7 +25,7 @@ namespace InterfaceAbstractDemo.Concrete
             }
             else
             {
-                throw new Exception("Not a valid person!")
+                throw new Exception("Not a valid person!");
             }
         }
     }

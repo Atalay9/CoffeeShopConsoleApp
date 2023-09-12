@@ -11,7 +11,7 @@ namespace InterfaceAbstractDemo
     {
         public static void Main(string[] args)
         {
-            BaseCustomerService customerService = new StarbucksCustomerService(new MernisServiceAdapter);
+            BaseCustomerService customerService = new StarbucksCustomerService(new MernisServiceAdapter());
             customerService.Save(new Entities.Customer
             {
                 DateOfBirth = new DateTime(1999, 05, 24),
